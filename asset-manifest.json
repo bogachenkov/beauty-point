@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/beauty-point/static/css/main.f819b7a5.chunk.css",
+    "main.js": "/beauty-point/static/js/main.90a1efc5.chunk.js",
+    "main.js.map": "/beauty-point/static/js/main.90a1efc5.chunk.js.map",
+    "runtime~main.js": "/beauty-point/static/js/runtime~main.c856e9b3.js",
+    "runtime~main.js.map": "/beauty-point/static/js/runtime~main.c856e9b3.js.map",
+    "static/js/2.117ee525.chunk.js": "/beauty-point/static/js/2.117ee525.chunk.js",
+    "static/js/2.117ee525.chunk.js.map": "/beauty-point/static/js/2.117ee525.chunk.js.map",
+    "index.html": "/beauty-point/index.html",
+    "precache-manifest.4cc638a340291bfe68ba665dc7107e75.js": "/beauty-point/precache-manifest.4cc638a340291bfe68ba665dc7107e75.js",
+    "service-worker.js": "/beauty-point/service-worker.js",
+    "static/css/main.f819b7a5.chunk.css.map": "/beauty-point/static/css/main.f819b7a5.chunk.css.map"
+  }
+}
