@@ -1,0 +1,63 @@
+.modal {
+  position: relative;
+  display: flex;
+  box-shadow: 0 2px 70px rgba(0, 0, 0, 0.09);
+  background-color: #f7f7f7;
+  border-radius: 10px;
+  overflow: hidden;
+  height: 524px;
+
+  &--wrap {
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(45, 58, 93, 0.14);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  &--title {
+    color: #000000;
+    font-weight: 700;
+    font-size: 22px;
+    font-family: 'Raleway', sans-serif;
+    margin-top: 0;
+    margin-bottom: 30px;
+  }
+
+  &--close {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    width: 14px;
+    height: 14px;
+    position: absolute;
+    top: 14px;
+    right: 15px;
+  }
+
+  &--controls {
+    position: absolute;
+    bottom: 29px;
+    left: 30px;
+    width: 245px;
+    display: flex;
+
+    > .btn {
+      flex: 1;
+
+      &:first-child {
+        margin-right: 28px;
+      }
+
+      > svg {
+        margin-left: 15px;
+      }
+    }
+  }
+}

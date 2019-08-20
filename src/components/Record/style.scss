@@ -1,0 +1,119 @@
+.record {
+  position: relative;
+  top: 2px;
+  z-index: 200;
+  padding: 0 4px;
+  cursor: pointer;
+
+  &:hover {
+    .record--body {
+      box-shadow: 0px 5px 15px rgba(56, 62, 68, 0.26);
+    }
+  }
+
+  &-payed {
+    .record--price {
+      background-color: #81da67;
+    }
+  }
+
+  &-canceled {
+    .record--time {
+      color: #ff6043;
+    }
+
+    .record--body::after {
+      background-color: #ff6043;
+    }
+
+    .record--time svg path {
+      fill: #ff6043; 
+    }
+  }
+
+  &-completed {
+    .record--time {
+      color: #8d8d8d;
+    }
+
+    .record--body::after {
+      background-color: #8d8d8d;
+    }
+
+    .record--time svg path {
+      fill: #8d8d8d; 
+    }
+  }
+
+  &--comment {
+    color: #b8b8b8;
+    //font-family: Roboto;
+    font-size: 12px;
+    font-weight: 400;
+    margin-left: 12px;
+  }
+
+  &--header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &--time {
+    display: flex;
+    align-items: center;
+    color: #8d43ff;
+    font-weight: 700;
+    font-size: 12px;
+
+    > svg {
+      margin-right: 5px;
+      
+      path {
+        fill: #8d43ff;
+      }
+    }
+  }
+
+  &--client {
+    margin: 10px 0 5px 0;
+    font-size: 14px;
+  }
+
+  &--price {
+    font-size: 12px;
+    font-weight: 400;
+    padding: 2px 5px;
+    border-radius: 8px;
+    background-color: #e9e9e9;
+  }
+
+  &--service {
+    color: #b6b6b6;
+    margin: 0;
+    font-size: 12px;
+    font-weight: 300;
+  }
+
+  &--body {
+    position: relative;
+    box-sizing: border-box;
+    padding: 11px 14px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 5px 15px rgba(56, 62, 68, 0.13);
+    border-radius: 5px;
+    height: 100%;
+    overflow: hidden;
+    font-family: 'Roboto', sans-serif;
+
+    &::after {
+      content: '';
+      position: absolute;
+      left: 0;
+      width: 100%;
+      bottom: 0;
+      height: 3px;
+      background-color: #8d43ff;
+    }
+  }
+}

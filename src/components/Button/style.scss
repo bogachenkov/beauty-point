@@ -1,0 +1,29 @@
+.btn {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: .4px;
+  color: #000000;
+  background-color: #ffffff;
+  border: none;
+  border-radius: 3px;
+  padding: 11px 15px;
+  box-shadow: 0 1px 4px rgba(121, 139, 149, 0.44);
+  outline: none;
+  cursor: pointer;
+
+  &.dark {
+    background-color: #8d43ff;
+    color: #ffffff;
+  }
+
+  &:disabled {
+    cursor: inherit;
+    opacity: .5;
+  }
+
+  &:hover {
+    opacity: .75;
+  }
+}

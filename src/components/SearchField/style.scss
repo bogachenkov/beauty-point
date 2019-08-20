@@ -1,0 +1,14 @@
+.search-field {
+  position: relative;
+
+  > svg {
+    position: absolute;
+    top: 10px;
+    left: 14px;
+  }
+
+  > .input {
+    width: 254px;
+    padding-left: 40px;
+  }
+}

@@ -1,0 +1,9 @@
+.user {
+  margin-left: auto;
+  &--avatar {
+    border-radius: 50%;
+    height: 41px;
+    width: 41px;
+    background-color: #f1f1f1;
+  }
+}

@@ -1,0 +1,19 @@
+.info-panel {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 57px 0;
+
+  &--date {
+    font-family: 'Raleway', sans-serif;
+    font-size: 28px;
+    color: #000;
+    margin: 0;
+  }
+
+  &--buttons {
+    & > .btn:first-child {
+      margin-right: 13px;
+    }
+  }
+}

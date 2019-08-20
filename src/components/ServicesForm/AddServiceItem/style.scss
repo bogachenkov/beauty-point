@@ -1,0 +1,74 @@
+.add-service {
+  box-shadow: 0 2px 11px rgba(82, 66, 108, 0.16);
+  border-radius: 4px;
+  overflow: hidden;
+  border: 1px solid #8d43ff;
+  background-color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+
+  &--button {
+    cursor: pointer;
+    color: #000000;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    
+    &-icon {
+      width: 28px;
+      height: 28px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0 1px 3px rgba(168, 168, 168, 0.22);
+      border-radius: 17px;
+      border: 1px solid #d9d9d9;
+      background-color: #ffffff;
+      margin-right: 12px;
+    }
+
+    &:hover {
+      color: #8d43ff;
+    }
+  }
+
+  &--input {
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    font-weight: 300;
+    padding: 1em 0 5px 53px;
+  }
+
+  &--select {
+    padding: 9px 0 22px 0;
+  }
+
+  &--section {
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.92px;
+    text-transform: uppercase;
+    margin: 1em 0 5px 53px;
+  }
+
+  &--item {
+    cursor: pointer;
+    padding: 9px 20px 9px 53px;
+    font-size: 15px;
+    font-weight: 300;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &-price {
+      font-size: 14px;
+      font-weight: 700;
+    }
+
+    &:hover {
+      background-color: #f1eef7;
+    }
+  }
+}

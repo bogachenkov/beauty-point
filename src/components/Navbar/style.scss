@@ -1,0 +1,18 @@
+.navbar {
+  background-color: #ffffff;
+  height: 60px;
+  padding: 0 31px;
+  display: flex;
+  //grid-template-columns: 305px 1fr 1fr 1fr;
+  align-items: center;
+  justify-content: flex-start;
+  box-shadow: 0 2px 40px rgba(65, 70, 76, 0.07);
+
+  > .logo {
+    width: 306px;
+  }
+
+  > .search-field {
+    margin-right: 65px;
+  }
+}

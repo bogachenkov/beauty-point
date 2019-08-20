@@ -1,0 +1,39 @@
+.menu {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  
+  &--item {
+    color: #000;
+    text-decoration: none;
+    margin-right: 55px;
+    
+    &:last-of-type {
+      margin-right: 46px;
+    }
+
+    &:hover, &-active {
+      color: #8d43ff; 
+    }
+
+    &-active {
+      font-weight: 600;      
+    }
+  }
+
+  &--more {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 18px;
+
+    > span {
+      display: inline-block;
+      width: 4px;
+      height: 4px;
+      background-color: #c1c1c1;
+      border-radius: 50%;
+    }
+  }
+}

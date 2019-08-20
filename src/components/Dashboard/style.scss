@@ -1,0 +1,21 @@
+// 306px
+.dashboard {
+  flex: 1;
+  margin-top: 34px;
+  padding-top: 15px;
+  width: 100%;
+  overflow: auto;
+  
+  &--content {
+    position: relative;
+  }
+
+  &--grid {
+    position: absolute;
+    left: 306px;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    min-width: 1425px;
+  }
+}

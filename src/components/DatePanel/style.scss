@@ -1,0 +1,77 @@
+.date-panel {
+  height: 48px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 16px rgba(127, 133, 139, 0.1);
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 23px;
+  padding: 0 30px;
+  border-radius: 3px;
+
+  &--item {
+    position: relative;
+    width: 31px;
+    height: 31px;
+    outline: none;
+    border: none;
+    background: transparent;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #000000;
+    font-family: Roboto, sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 1;
+    cursor: pointer;
+
+    &-disabled {
+      color: #c3c6ca;
+      cursor: inherit;
+    }
+
+    &:not(&-active):hover {
+      background-color: rgba(141, 67, 255, .15);
+    }
+
+    &-active {
+      color: #ffffff;
+      background-color: #8d43ff;
+    }
+  }
+
+  &--weekday {
+    position: absolute;
+    top: -3em;
+    color: #b0b0b0;
+    font-family: Roboto, sans-serif;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 400;
+  }
+
+  &--month {
+    color: #b0b0b0;
+    font-family: Roboto, sans-serif;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 400;
+  }
+
+  &--calendar {
+    width: 31px;
+    height: 31px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    background: transparent;
+    border-radius: 50%;
+
+    &:hover {
+      background-color: rgba(141, 67, 255, .15);
+    }
+  }
+}
